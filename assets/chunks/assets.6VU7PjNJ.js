@@ -1,0 +1,1 @@
+var e=`/logo.png`,t=`/screenshot-ipad-main.png`,n=`/screenshot-iphone-main.png`,r=`/screenshot-mac-difficulty.png`,i=`/screenshot-iphone-difficulty.png`,a=`/screenshot-ipad-difficulty.png`,o=`/screenshot-mac-settings.png`,s=`/screenshot-iphone-settings.png`,c=`/screenshot-ipad-settings.png`;export{i as a,t as c,a as i,e as l,s as n,r as o,o as r,n as s,c as t};
