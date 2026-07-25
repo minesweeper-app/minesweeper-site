@@ -44,3 +44,5 @@ Thumbs.db
 *.temp
 wiki
 wiki-en
+# WorkBuddy local agent memory (not for remote)
+.workbuddy/
