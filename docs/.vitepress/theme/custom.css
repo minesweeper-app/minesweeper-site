@@ -114,6 +114,14 @@
     radial-gradient(circle at 80% 20%, rgba(16, 185, 129, 0.06) 0%, transparent 50%);
 }
 
+/* Isolate the curtain from --vp-sidebar-bg-color so the sidebar's
+   decorative radial gradients show through uniformly at the top.
+   The .VPSidebar solid background-color still provides the opaque
+   base that keeps the mobile overlay visible. */
+.VPSidebar .curtain {
+  background-color: transparent;
+}
+
 .store-badge-link:active {
   opacity: 0.65;
   transform: translateY(0);
