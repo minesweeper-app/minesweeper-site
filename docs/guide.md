@@ -1,15 +1,14 @@
 # Guide
 
-Welcome to the Gomoku Support Guide! This section contains documentation to help you get the most out of Gomoku.
+Welcome to the Minesweeper Support Guide! This section contains documentation to help you get the most out of Minesweeper.
 
 ## Getting Started
 
-If you're new to Gomoku, start here:
+If you're new to Minesweeper, start here:
 
-- **[Introduction](guide/introduction.md)** - Learn what Gomoku is and its key features
-- **[Installation](guide/installation.md)** - Install Gomoku on your Mac
-- **[Usage](guide/usage.md)** - Basic usage guide and keyboard shortcuts
- - **[Import SGF](guide/import-sgf.md)** - How to import and open `.sgf` game records
+- **[Introduction](guide/introduction.md)** - Learn what Minesweeper is and its key features
+- **[Installation](guide/installation.md)** - Install Minesweeper on iPhone, iPad, or Mac
+- **[Usage](guide/usage.md)** - Basic usage guide, controls, and difficulty levels
 
 ## Advanced Topics
 
@@ -21,8 +20,8 @@ Once you're familiar with the basics:
 ## Need Help?
 
 - 📖 [Full Documentation](/) - Back to main documentation
-- 🐛 [Report Issues](https://github.com/gomoku-app/gomoku-site/issues) - Found a bug or have a suggestion?
-- 💬 [Community Discussions](https://github.com/gomoku-app/gomoku-site/discussions) - Get help from the community
+- 🐛 [Report Issues](https://github.com/minesweeper-app/minesweeper-site/issues) - Found a bug or have a suggestion?
+- 💬 [Community Discussions](https://github.com/minesweeper-app/minesweeper-site/discussions) - Get help from the community
 
 ## Quick Links
 
@@ -33,8 +32,6 @@ Once you're familiar with the basics:
 | Troubleshooting | [guide/troubleshooting.md](guide/troubleshooting.md) |
 | FAQ | [guide/faq.md](guide/faq.md) |
 
-| Set Default Viewer | [Import SGF](guide/import-sgf.md) |
-
 ---
 
-*Last updated: April 24, 2026*
+*Last updated: July 25, 2026*

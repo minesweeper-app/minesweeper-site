@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 ### Added
 - Improved local network matchmaking and LAN play stability
-- Better compatibility and portability for game records (SGF)
+- Better compatibility and portability for game saves
 - Faster game load times and improved UI responsiveness
 - Improved overall interaction and gameplay experience
 - Enhanced macOS compatibility and stability
@@ -19,10 +19,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.0] - 2025-12-11
 
 -### Added
-- Initial release of Gomoku documentation
+- Initial release of Minesweeper documentation
 - Complete VitePress setup with TypeScript configuration
 - Comprehensive user guides:
-  - Introduction to Gomoku
+  - Introduction to Minesweeper
   - Installation instructions for macOS
   - Usage guide with keyboard shortcuts
   - Troubleshooting section

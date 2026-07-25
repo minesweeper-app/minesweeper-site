@@ -2,18 +2,18 @@
 layout: home
 
 hero:
-  name: "Gomoku"
-  text: "Play Gomoku — rules, guides, and tools."
-  tagline: "Quick start · Smart analysis & AI opponent · LAN play · SGF export"
+  name: "Minesweeper"
+  text: "The Classic Game, Perfectly Made"
+  tagline: "3 difficulty levels · Full offline play · Zero ads · iPhone, iPad & Mac"
   image:
     src: /hero-illustration.png
-    alt: Gomoku Illustration
+    alt: Minesweeper Illustration
   actions:
     - theme: brand
       text: Get Started
       link: /guide/introduction
     - theme: alt
-      text: Play Online (demo)
+      text: Download
       link: /guide/installation
 
 features:
@@ -23,8 +23,8 @@ features:
       alt: Eye
       width: "24"
       height: "24"
-    title: Fast, Casual Play
-    details: Quick matches and straightforward rules to get you playing in seconds.
+    title: Authentic Gameplay
+    details: True to the original — tap to reveal tiles, long-press to flag mines, and use logic to clear the board safely.
     link: /guide/usage
     linkText: See how it works
   - icon:
@@ -33,8 +33,8 @@ features:
       alt: Layers
       width: "24"
       height: "24"
-    title: Smarter Play Analysis
-    details: Tools for move suggestions, analysis, and replaying games.
+    title: 3 Difficulty Levels
+    details: Beginner, Intermediate, and Expert — with board sizes optimized for each device (iPhone, iPad, and Mac).
     link: /guide/usage
     linkText: Learn more
   - icon:
@@ -43,8 +43,8 @@ features:
       alt: Sparkles
       width: "24"
       height: "24"
-    title: AI Opponent & Analysis
-    details: Optional AI opponent and position analysis to practice and study.
+    title: Play Anywhere — Offline
+    details: Full offline support. No internet needed, no data usage. Your game data never leaves your device.
     link: /guide/usage
     linkText: Learn more
   - icon:
@@ -53,29 +53,28 @@ features:
       alt: Camera
       width: "24"
       height: "24"
-    title: Save & Share Games
-    details: Save, export, and share game records with friends or study groups.
-    link: /guide/usage
-    linkText: Learn more
+    title: Clean & Ad-Free
+    details: No interruptions, no pop-ups — just pure, focused gameplay with a clean, minimal interface.
+    link: /guide/introduction
+    linkText: About Minesweeper
   - icon:
       light: /icons/frame.svg
       dark: /icons/frame-dark.svg
       alt: Frame
       width: "24"
       height: "24"
-    title: Clean Game UI
-    details: A minimal interface focused on the board and your moves.
+    title: Universal Design
+    details: Optimized for iPhone, iPad, and Mac with native controls and crisp Retina display graphics.
     link: /guide/introduction
-    linkText: About Gomoku
+    linkText: About Minesweeper
   - icon:
       light: /icons/zap.svg
       dark: /icons/zap-dark.svg
       alt: Zap
       width: "24"
       height: "24"
-    title: Fast Performance
-    details: Lightweight and responsive play across supported platforms.
-    link: /guide/introduction
-    linkText: About Gomoku
+    title: Customizable
+    details: Switch between 25 languages, adjust game resolution on Mac, toggle flagging mode, and turn sound on or off in Settings.
+    link: /guide/usage
+    linkText: Learn more
 ---
-

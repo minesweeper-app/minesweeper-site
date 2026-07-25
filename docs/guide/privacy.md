@@ -1,33 +1,38 @@
 # Privacy Policy
 
-Gomoku is designed as an offline-first application. This page explains what (if any) data the app collects and how it is used.
+Minesweeper is an offline-first application. This page explains what (if any) data the app collects and how it is used.
 
-## Local-first design
+## Offline-First — No Data Collection
 
-- Game records (saved replays / SGF files), settings, and logs are stored locally on your Mac. They are not uploaded by default.
-- LAN play transmits moves and room metadata only to peers on your local network while a match is in progress.
+- The core game is 100% offline. No network access is required to play.
+- All game data — settings, game state, and statistics — is stored locally on your device.
+- Your game data never leaves your device. Nothing is uploaded, transmitted, or shared.
+- There are no ads, no analytics, and no tracking.
+
+## The Only Network Access: "More Apps"
+
+The sole network feature is an optional **"More Apps"** section in Settings, which fetches a list of sibling apps from our servers. This feature:
+
+- Only activates when you navigate to Settings → More Apps.
+- Fetches a lightweight list of app names and links — no personal data is sent or stored.
+- Can be completely ignored and does not affect gameplay in any way.
+
+No other network access occurs during normal gameplay.
 
 ## What we do not collect
 
-- We do not collect personal files, images, or browsing history.
-- We do not send your game records or private data to external servers unless you explicitly use a cloud or sharing feature that performs an upload (not enabled by default).
+- We do not collect personal information, files, images, or browsing history.
+- We do not send any game data to external servers.
+- We do not include third-party analytics or advertising SDKs.
 
-## Permissions used by the app
+## Permissions
 
-- **Local Network**: Required to discover and join LAN games on your Wi‑Fi network. You will be prompted by macOS the first time this is needed.
-- **Files and Folders**: Required to read/open and save game records (SGF) and user settings.
-- **Screen Recording / Accessibility**: Optional; only requested if you enable auxiliary features that require them.
-
-You can manage these permissions in **System Settings → Privacy & Security**.
-
-## Third-party services
-
-Gomoku does not include third-party analytics or advertising by default. If the project adds optional cloud or sharing integrations in the future, they will be documented and disclosed here.
+Minesweeper does not require any special permissions. No location, no contacts, no camera — nothing. The app works entirely offline from the moment you install it.
 
 ## Privacy requests
 
-If you believe Gomoku holds personal data about you and wish to request access, deletion, or portability, please open an issue in the project repository or contact the maintainers. Typical responses will confirm whether any personal data is held and how to remove it.
+Since Minesweeper stores all data locally on your device and does not transmit personal data, there is no server-side data to access or delete. To clear all app data, simply uninstall the app or use the reset option in Troubleshooting.
 
 ## Contact
 
-For privacy questions or requests, open an issue at the project repository (https://github.com/gomoku-app/gomoku-site) or contact the maintainers.
+For privacy questions, open an issue at the project repository (https://github.com/minesweeper-app/minesweeper-site) or contact the maintainers.

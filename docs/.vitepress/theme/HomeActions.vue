@@ -5,13 +5,13 @@ import { withBase } from 'vitepress'
 <template>
   <div class="home-badge-row">
     <a
-      href="https://apps.apple.com/us/app/gomoku-lan/id6771268165?mt=12" target="_blank" rel="noopener noreferrer"
+      href="https://apps.apple.com/app/id6793471840" target="_blank" rel="noopener noreferrer"
       class="store-badge-link"
-      aria-label="Gomoku installation guide"
+      aria-label="Minesweeper installation guide"
     >
       <img
         :src="withBase('/badges/Mac-App-Store.png')"
-        alt="Download on the Mac App Store"
+        alt="Download on the App Store"
         class="store-badge"
         width="156"
         height="46"
@@ -20,7 +20,7 @@ import { withBase } from 'vitepress'
     <!-- <a
       href="/guide/installation" target="_self" rel="noopener noreferrer"
       class="store-badge-link"
-      aria-label="Gomoku installation guide"
+      aria-label="Minesweeper installation guide"
     >
       <img
         :src="withBase('/badges/Chrome-Web-Store.png')"

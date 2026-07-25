@@ -1,34 +1,22 @@
-# Gomoku Documentation
+# Minesweeper Documentation
 
-This repository hosts documentation for the **Gomoku** project. The site has been adapted to serve the Gomoku project's documentation and uses the custom domain `gomoku.w3cub.com`.
-
-## Project Source
-
-The local project used as the source for this site is located at:
-
-/Users/terry/nuecms-workspace/gomoku
-
-To use the Gomoku project's documentation as the site source, you can either copy its `docs/` contents into this repository's `docs/` folder or create a symlink:
-
-```bash
-rm -rf docs
-ln -s /Users/terry/nuecms-workspace/gomoku/docs docs
-```
+This repository hosts documentation for the **Minesweeper** project. The site uses the custom domain `minesweeper.w3cub.com`.
 
 ## App Store
 
-- **App Store ID**: `6771268165`
-- **Public App Store link**: https://apps.apple.com/app/id6771268165
-- **App Store Connect (developer)**: https://appstoreconnect.apple.com/apps/6771268165/distribution/info
+- **App Store ID**: `6793471840`
+- **Public App Store link**: https://apps.apple.com/app/id6793471840
+- **App Store Connect (developer)**: https://appstoreconnect.apple.com/apps/6793471840/distribution/info
+- **Platforms**: iPhone, iPad, Mac (universal app)
 
 ## Documentation
 
-This site is built with [VitePress](https://vitepress.dev/) and contains guides for the Gomoku project.
+This site is built with [VitePress](https://vitepress.dev/) and contains guides for the Minesweeper project.
 
 ### Getting Help
 
-- **Submit Issues**: Report bugs or request features at the Gomoku repository issues (e.g. `https://github.com/gomoku-app/gomoku-site/issues`)
-- **Documentation**: Browse the full documentation at https://gomoku.w3cub.com
+- **Submit Issues**: Report bugs or request features at https://github.com/minesweeper-app/minesweeper-site/issues
+- **Documentation**: Browse the full documentation at https://minesweeper.w3cub.com
 
 ## Development
 
@@ -65,7 +53,7 @@ pnpm docs:preview
 
 ## Deployment
 
-This documentation site can be deployed to GitHub Pages; the workflow includes a step to add a `CNAME` for the custom domain `gomoku.w3cub.com`.
+This documentation site can be deployed to GitHub Pages; the workflow includes a step to add a `CNAME` for the custom domain `minesweeper.w3cub.com`.
 
 ### Manual Deployment
 

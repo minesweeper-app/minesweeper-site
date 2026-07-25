@@ -1,32 +1,42 @@
 # Privacy Choices
 
-If you believe Gomoku holds personal data about you and wish to request access, deletion, or portability, use the steps below.
+Minesweeper is an offline-first app that does not collect, transmit, or store any personal data on external servers. This page explains your privacy options.
 
-## What to include in your request
+## Your Data Stays on Your Device
 
-- Your name
-- Contact email
-- Description of the request (access, deletion, portability, or opt-out)
-- Any identifiers that help locate records (for example, a support ticket ID)
+- All game data — settings, game state, and statistics — is stored locally on your device.
+- Nothing is uploaded, transmitted, or shared with anyone.
+- There are no accounts, no cloud sync, and no data collection.
 
-## How to submit
+## The Only Network Feature: "More Apps"
 
-- Open an issue in the project repository: `https://github.com/gomoku-app/gomoku-site/issues`
-- Or contact the maintainers via the project contact method on the repository
+The only network access in Minesweeper is the optional **"More Apps"** section in Settings, which fetches a list of sibling apps. This feature:
 
-## Response time
+- Sends no personal data — it only retrieves a list of app names and links.
+- Can be ignored entirely with no impact on gameplay.
+- Does not track you or store any identifiers.
 
-We aim to acknowledge and respond to valid requests within 30 days. If more time is required, we will provide an estimated timeframe.
+## Clearing Your Data
 
-## If we do not hold personal data
+To remove all app data from your device:
 
-Gomoku is an offline-first app; unless you explicitly used a cloud or sharing feature that uploads data, most requests will be answered with a confirmation that no personal data is held.
+- **iPhone/iPad**: Delete and reinstall the app
+- **Mac**: Quit Minesweeper, then remove the container:
 
-## Do Not Sell / Opt-out
+```bash
+rm -rf ~/Library/Containers/com.w3cub.minesweeper
+```
 
-If you are exercising jurisdictional rights (for example under CCPA/CPRA), describe the circumstances in your request and we will respond accordingly.
+This will permanently delete all settings and game data.
+
+## No Tracking, No Ads
+
+Minesweeper contains no advertising, no analytics, no tracking pixels, and no third-party data-sharing integrations. The app does not require network access for gameplay.
+
+## Privacy Requests
+
+Since no personal data is collected or transmitted, there is no server-side data to access, delete, or port. If you have questions, open an issue at `https://github.com/minesweeper-app/minesweeper-site/issues`.
 
 ## Contact
 
-If you have questions about this process, open an issue at `https://github.com/gomoku-app/gomoku-site/issues`.
-
+If you have questions about this process, open an issue at `https://github.com/minesweeper-app/minesweeper-site/issues`.

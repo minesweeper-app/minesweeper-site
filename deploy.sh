@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Deploy script for Gomoku documentation
+# Deploy script for Minesweeper documentation
 
 set -e
 
@@ -50,7 +50,7 @@ cp -rf ../../docs/.vitepress/dist/* .
 
 # Add CNAME file for custom domain
 echo "🌐 Adding CNAME file..."
-echo "gomoku.w3cub.com" > CNAME
+echo "minesweeper.w3cub.com" > CNAME
 
 # Add and commit
 echo "📝 Committing changes..."
@@ -58,7 +58,7 @@ git add -A .
 if git diff --staged --quiet; then
         echo "ℹ️  No changes to commit"
 else
-        git commit -m "Deploy Gomoku documentation
+        git commit -m "Deploy Minesweeper documentation
 
 Built from $(git -C .. rev-parse --short HEAD)
 Deployed on $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
@@ -77,4 +77,4 @@ cd ../..
 rm -rf temp_deploy
 
 echo "🎉 Deployment completed successfully!"
-echo "📖 Documentation available at: https://gomoku.w3cub.com/"
+echo "📖 Documentation available at: https://minesweeper.w3cub.com/"

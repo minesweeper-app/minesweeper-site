@@ -5,8 +5,8 @@
       <div class="nav-container">
         <div class="nav-brand">
           <VPLink href="/" class="brand-link">
-            <img src="/logo.png" alt="Gomoku Logo" class="brand-logo" />
-            <span class="brand-text">Gomoku</span>
+            <img src="/logo.png" alt="Minesweeper Logo" class="brand-logo" />
+            <span class="brand-text">Minesweeper</span>
           </VPLink>
         </div>
         <div class="nav-links">
@@ -31,16 +31,16 @@
           <div class="hero-visual">
             <div class="floating-elements">
               <div class="floating-card card-1">
-                <div class="card-icon">♟️</div>
-                <div class="card-text">Board Game</div>
+                <div class="card-icon">💣</div>
+                <div class="card-text">Classic Puzzle</div>
               </div>
               <div class="floating-card card-2">
                 <div class="card-icon">⚡</div>
-                <div class="card-text">Responsive Play</div>
+                <div class="card-text">Fast & Smooth</div>
               </div>
               <div class="floating-card card-3">
-                <div class="card-icon">🎯</div>
-                <div class="card-text">AI Analysis</div>
+                <div class="card-icon">🚩</div>
+                <div class="card-text">Flag & Clear</div>
               </div>
             </div>
             <div class="hero-image">
@@ -57,7 +57,7 @@
       <div class="features-container">
         <div class="section-header">
           <h2 class="section-title">Key Features</h2>
-          <p class="section-subtitle">Everything you need to play, review, and analyze Gomoku</p>
+          <p class="section-subtitle">Everything you need to play, master, and enjoy Minesweeper</p>
         </div>
         <div class="features-grid">
           <div v-for="(feature, index) in data.features" :key="feature.title"
@@ -75,6 +75,30 @@
       </div>
     </section>
 
+    <!-- Screenshots Section -->
+    <section class="screenshots-section">
+      <div class="screenshots-container">
+        <div class="section-header">
+          <h2 class="section-title">Screenshots</h2>
+          <p class="section-subtitle">See Minesweeper in action on iPhone, iPad, and Mac</p>
+        </div>
+        <div class="screenshots-grid">
+          <div class="screenshot-card">
+            <img :src="withBase('/screenshot-iphone-main.png')" alt="Minesweeper on iPhone" />
+            <p class="screenshot-caption">iPhone</p>
+          </div>
+          <div class="screenshot-card">
+            <img :src="withBase('/screenshot-ipad-main.png')" alt="Minesweeper on iPad" />
+            <p class="screenshot-caption">iPad</p>
+          </div>
+          <div class="screenshot-card wide">
+            <img :src="withBase('/screenshot-mac-difficulty.png')" alt="Minesweeper difficulty levels on Mac" />
+            <p class="screenshot-caption">Mac</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Testimonials Section -->
     <section class="testimonials-section">
       <div class="testimonials-container">
@@ -85,7 +109,7 @@
         <div class="testimonials-grid">
           <div class="testimonial-card">
             <div class="testimonial-quote">"</div>
-            <p class="testimonial-text">Gomoku makes it easy to play and review games — fast and pleasant experience.</p>
+            <p class="testimonial-text">The best Minesweeper I've played on mobile — smooth, clean, and totally ad-free.</p>
             <div class="testimonial-author">
               <div class="author-avatar">A</div>
               <div class="author-info">
@@ -96,7 +120,7 @@
           </div>
           <div class="testimonial-card">
             <div class="testimonial-quote">"</div>
-            <p class="testimonial-text">The analysis tools helped me improve my opening — great for practice.</p>
+            <p class="testimonial-text">Love the three difficulty levels and offline play. Perfect quick-break puzzle on my iPad.</p>
             <div class="testimonial-author">
               <div class="author-avatar">S</div>
               <div class="author-info">
@@ -107,7 +131,7 @@
           </div>
           <div class="testimonial-card">
             <div class="testimonial-quote">"</div>
-            <p class="testimonial-text">Clean interface keeps the focus on the board and the game.</p>
+            <p class="testimonial-text">Clean interface, zero ads, and it works perfectly offline. Exactly what a classic puzzle should be.</p>
             <div class="testimonial-author">
               <div class="author-avatar">M</div>
               <div class="author-info">
@@ -125,7 +149,7 @@
       <div class="faq-container">
         <div class="section-header">
           <h2 class="section-title">Frequently Asked Questions</h2>
-          <p class="section-subtitle">Quick answers for macOS players</p>
+          <p class="section-subtitle">Quick answers for iPhone, iPad & Mac players</p>
         </div>
         <div class="faq-grid">
           <div v-for="faq in faqs" :key="faq.question" class="faq-item">
@@ -142,8 +166,8 @@
     <section class="cta-section">
       <div class="cta-container">
         <div class="cta-content">
-          <h2 class="cta-title">Ready to Play Gomoku?</h2>
-          <p class="cta-description">Start a game, play AI, or join friends on your local network.</p>
+          <h2 class="cta-title">Ready to Play Minesweeper?</h2>
+          <p class="cta-description">Start clearing tiles, beat your best time, and enjoy the classic puzzle — anytime, anywhere, completely offline.</p>
           <div class="cta-actions">
             <a href="/guide/installation" class="btn btn-primary">Get Started</a>
             <a href="/guide/usage" class="btn btn-secondary">How to Play</a>
@@ -157,13 +181,13 @@
       <div class="footer-container">
         <div class="footer-content">
           <div class="footer-brand">
-            <div class="footer-logo">Gomoku</div>
-            <p class="footer-tagline">Play. Analyze. Improve.</p>
+            <div class="footer-logo">Minesweeper</div>
+            <p class="footer-tagline">Clear the board. Beat the clock.</p>
           </div>
           <div class="footer-links">
             <div class="footer-column">
               <h4 class="footer-heading">Product</h4>
-              <a href="/guide/installation" class="footer-link">Mac App</a>
+              <a href="/guide/installation" class="footer-link">App Store</a>
               <a href="/guide/usage" class="footer-link">Features</a>
               <a href="/guide/installation" class="footer-link">Installation</a>
             </div>
@@ -175,13 +199,13 @@
             </div>
             <div class="footer-column">
               <h4 class="footer-heading">Community</h4>
-              <a href="https://github.com/gomoku-app/gomoku-site" class="footer-link">GitHub</a>
-              <a href="https://github.com/gomoku-app/gomoku-site/blob/main/CHANGELOG.md" class="footer-link">Changelog</a>
+              <a href="https://github.com/minesweeper-app/minesweeper-site" class="footer-link">GitHub</a>
+              <a href="https://github.com/minesweeper-app/minesweeper-site/blob/main/CHANGELOG.md" class="footer-link">Changelog</a>
             </div>
           </div>
         </div>
         <div class="footer-bottom">
-          <p class="footer-copyright">© 2026 Gomoku Project. Built with ❤️ for players.</p>
+          <p class="footer-copyright">© 2026 Minesweeper Project. Built with ❤️ for players.</p>
         </div>
       </div>
     </footer>
@@ -214,24 +238,24 @@ const featureColors = [
 // FAQ data
 const faqs = [
   {
-    question: "Is Gomoku free?",
-    answer: "Check the installation page for current distribution and pricing (GitHub Releases are typically free; an App Store build may have a price)."
+    question: "Is Minesweeper free?",
+    answer: "Check the App Store listing for current pricing. The app is a one-time purchase with no ads or in-app purchases."
   },
   {
-    question: "Does Gomoku work offline?",
-    answer: "Yes. Core gameplay and analysis work offline. LAN play requires a local network connection."
+    question: "Does Minesweeper work offline?",
+    answer: "Yes. The game is 100% offline — no internet needed, no data usage. The only network feature is an optional 'More Apps' section in Settings that can be ignored."
   },
   {
     question: "Is my game data uploaded anywhere?",
-    answer: "No. Game records and logs are stored locally. LAN play transmits moves only to peers on your local network."
+    answer: "No. All settings and game data are stored locally on your device. The only network access is the optional 'More Apps' feature, which sends no personal data."
   },
   {
-    question: "Which macOS versions are supported?",
-    answer: "Gomoku supports macOS 12 Monterey and later, and is optimized for Apple Silicon (M-series)."
+    question: "Which devices are supported?",
+    answer: "Minesweeper is a universal app for iPhone, iPad, and Mac with native controls and Retina graphics. Requires iOS/iPadOS 15.0+ and macOS 15.0 (Sequoia)+. One purchase works everywhere."
   },
   {
-    question: "What permissions does Gomoku need?",
-    answer: "Gomoku may request Local Network access for LAN play and Files & Folders permission to save or open game records. Screen Recording/Accessibility are optional for auxiliary features."
+    question: "Are there ads or in-app purchases?",
+    answer: "No. Minesweeper is completely ad-free with no pop-ups or in-app purchases. Just pure, focused gameplay."
   }
 ]
 </script>
@@ -634,6 +658,54 @@ const faqs = [
   color: #333333;
 }
 
+/* Screenshots Section */
+.screenshots-section {
+  padding: 120px 0;
+  background: #f8f9fa;
+}
+
+.screenshots-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.screenshots-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.6fr;
+  gap: 32px;
+  align-items: start;
+}
+
+.screenshot-card {
+  background: white;
+  border-radius: 24px;
+  padding: 16px 16px 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e5e5e5;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.screenshot-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+.screenshot-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  display: block;
+}
+
+.screenshot-caption {
+  text-align: center;
+  margin: 16px 0 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #666666;
+}
+
 /* Testimonials Section */
 .testimonials-section {
   padding: 120px 0;
@@ -916,8 +988,13 @@ const faqs = [
   }
 
   .features-grid,
-  .testimonials-grid {
+  .testimonials-grid,
+  .screenshots-grid {
     grid-template-columns: 1fr;
+  }
+
+  .screenshot-card.wide {
+    grid-column: auto;
   }
 
   .footer-content {
@@ -950,7 +1027,8 @@ const faqs = [
   .features-section,
   .testimonials-section,
   .faq-section,
-  .cta-section {
+  .cta-section,
+  .screenshots-section {
     padding: 80px 0;
   }
 

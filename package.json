@@ -1,12 +1,12 @@
 {
-  "name": "gomoku-docs",
+  "name": "minesweeper-docs",
   "version": "1.0.0",
   "type": "module",
-  "description": "Documentation for the Gomoku project",
+  "description": "Documentation for the Minesweeper project",
   "main": "index.js",
-  "homepage": "https://gomoku.w3cub.com",
-  "appStoreId": "6771268165",
-  "appStoreConnectUrl": "https://appstoreconnect.apple.com/apps/6771268165/distribution/info",
+  "homepage": "https://minesweeper.w3cub.com",
+  "appStoreId": "6793471840",
+  "appStoreConnectUrl": "https://appstoreconnect.apple.com/apps/6793471840/distribution/info",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
@@ -14,8 +14,8 @@
     "docs:deploy": "./deploy.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["gomoku", "documentation", "game", "board"],
-  "author": "Gomoku Project",
+  "keywords": ["minesweeper", "documentation", "game", "board"],
+  "author": "Minesweeper Project",
   "license": "ISC",
   "devDependencies": {
     "vitepress": "^1.6.4"

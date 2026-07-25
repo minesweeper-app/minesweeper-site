@@ -1,10 +1,10 @@
-# Contributing to Gomoku Documentation
+# Contributing to Minesweeper Documentation
 
-Thank you for your interest in contributing to the Gomoku documentation! This repository contains the official documentation for the Gomoku project.
+Thank you for your interest in contributing to the Minesweeper documentation! This repository contains the official documentation for the Minesweeper project.
 
 ## Ways to Contribute
 
-- **Report Issues**: Found a bug in the documentation or have a suggestion? [Open an issue](https://github.com/gomoku-app/gomoku-site/issues)
+- **Report Issues**: Found a bug in the documentation or have a suggestion? [Open an issue](https://github.com/minesweeper-app/minesweeper-site/issues)
 - **Improve Documentation**: Fix typos, clarify instructions, or add missing information
 - **Add Guides**: Create new guides for common issues or features
 - **Translate**: Help translate the documentation to other languages
@@ -12,7 +12,7 @@ Thank you for your interest in contributing to the Gomoku documentation! This re
 ## Getting Started
 
 1. Fork this repository
-2. Clone your fork: `git clone https://github.com/YOUR_USERNAME/gomoku.git`
+2. Clone your fork: `git clone https://github.com/YOUR_USERNAME/minesweeper-site.git`
 3. Install dependencies: `pnpm install`
 4. Start development server: `pnpm docs:dev`
 5. Make your changes
@@ -61,4 +61,4 @@ This project follows a code of conduct to ensure a welcoming environment for all
 
 ## Questions?
 
-If you have questions about contributing, feel free to [open an issue](https://github.com/gomoku-app/gomoku-site/issues) or contact the maintainers.
+If you have questions about contributing, feel free to [open an issue](https://github.com/minesweeper-app/minesweeper-site/issues) or contact the maintainers.

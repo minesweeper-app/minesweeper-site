@@ -1,5 +1,5 @@
 /* =============================================================
-  Gomoku — Home Page Styles
+  Minesweeper — Home Page Styles
   Compatible with VitePress default theme (light + dark)
   ============================================================= */
 
@@ -301,7 +301,27 @@ details.faq-item .faq-answer {
   max-width: 680px;
 }
 
+/* ─── Markdown content images ──────────────────────────────── */
+
+.content-container img,
+.VPDoc img {
+  max-width: 420px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  display: block;
+  margin: 24px auto;
+}
+
+@media (max-width: 768px) {
+  .content-container img,
+  .VPDoc img {
+    max-width: 100%;
+  }
+}
+
 /* ─── Responsive ────────────────────────────────────────────── */
+
 
 @media (max-width: 768px) {
   .steps-grid {

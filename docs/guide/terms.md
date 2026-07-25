@@ -1,27 +1,27 @@
 # Terms of Service
 
-These Terms govern your use of the Gomoku application. By downloading, installing, or using Gomoku, you agree to these Terms. If you do not agree, do not use the application.
+These Terms govern your use of the Minesweeper application. By downloading, installing, or using Minesweeper, you agree to these Terms. If you do not agree, do not use the application.
 
 ## License and Use
 
-Gomoku is provided under the license terms included with each release. You are granted a limited, non-exclusive, non-transferable license to use the application on your devices in accordance with the license terms.
+Minesweeper is provided under the license terms included with each release. You are granted a limited, non-exclusive, non-transferable license to use the application on your devices in accordance with the license terms.
 
-## Local Features and Data
+## Offline-First Design
 
-Gomoku is an offline-first application. Game records, settings, and logs are stored locally unless you use an explicit cloud or sharing feature.
+Minesweeper is an offline-first application. All game data — settings, game state, and statistics — is stored locally on your device. The only network access is an optional "More Apps" feature that fetches a list of sibling apps; no personal data is transmitted.
 
 ## User Responsibilities
 
-- Use Gomoku lawfully and in compliance with applicable rules.
+- Use Minesweeper lawfully and in compliance with applicable rules.
 - Do not attempt to decompile, reverse engineer, or modify the app in violation of the license.
 
 ## Privacy
 
-Please review the Privacy Policy for information about data practices and privacy.
+Please review the Privacy Policy for information about data practices. In short: no data is collected, transmitted, or stored externally.
 
 ## No Warranty
 
-Gomoku is provided "as is" without warranties of any kind. To the fullest extent permitted by law, the maintainers disclaim all warranties, whether express, implied, statutory or otherwise, including merchantability and fitness for a particular purpose.
+Minesweeper is provided "as is" without warranties of any kind. To the fullest extent permitted by law, the maintainers disclaim all warranties, whether express, implied, statutory or otherwise, including merchantability and fitness for a particular purpose.
 
 ## Limitation of Liability
 
@@ -37,6 +37,6 @@ We may update these Terms from time to time. Continued use after changes constit
 
 ## Contact
 
-For questions about these Terms, open an issue at the project repository: `https://github.com/gomoku-app/gomoku-site/issues`.
+For questions about these Terms, open an issue at the project repository: `https://github.com/minesweeper-app/minesweeper-site/issues`.
 
-*Last updated: 2026-04-16*
+*Last updated: 2026-07-25*

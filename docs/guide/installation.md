@@ -1,83 +1,77 @@
 # Installation
 
-Gomoku is available for macOS through the Mac App Store. The app costs $4.99 and provides a one-time purchase for full access to all features.
+Minesweeper is available as a universal app on the App Store, supporting iPhone, iPad, and Mac with a single purchase.
 
-## Download Options
+## Download
 
-- **Mac App Store**: [Download Gomoku](https://apps.apple.com/app/id6771268165) - $4.99
+- **App Store**: [Download Minesweeper](https://apps.apple.com/app/id6793471840) — universal app for iPhone, iPad & Mac
 
-### Mac App Store (Recommended)
+### App Store (Recommended)
 
-The Mac App Store version provides automatic updates and seamless integration with macOS.
+The App Store version provides automatic updates and seamless integration across all your Apple devices.
 
-- **Price**: $4.99 (one-time purchase)
-- **App Store ID**: 6771268165
-- **Link**: https://apps.apple.com/app/id6771268165
-
-### GitHub Releases (Alternative)
-
-If you prefer to download directly, you can get the app from GitHub Releases. Note that this version does not receive automatic updates.
+- **App Store ID**: 6793471840
+- **Link**: https://apps.apple.com/app/id6793471840
+- **Platforms**: iPhone, iPad, Mac (universal app)
+- **Price**: Check the App Store listing for current pricing
 
 ## Installation Steps
 
-### Mac App Store Installation (Recommended)
+### iPhone / iPad
 
-1. Click the "Download Gomoku" link above or search for "Gomoku" in the Mac App Store
-2. Click "Get" or "Buy" to purchase the app ($4.99)
-3. The app will automatically download and install
-4. Launch Gomoku from your Applications folder or Launchpad
+1. Open the **App Store** on your device
+2. Search for "Minesweeper" or use the direct link above
+3. Tap **Get** or **Buy** to download
+4. The app will install automatically
+5. Launch Minesweeper from your Home Screen
 
-### GitHub Releases Installation
+### Mac
 
-1. Download the latest `.dmg` from the Releases page
-2. Double-click the downloaded `.dmg` to open it
-3. Drag the `Gomoku.app` icon into your `Applications` folder
-4. Eject the mounted image and open `Gomoku` from `Applications`
-
-If macOS prevents opening the app (Gatekeeper), open **System Settings → Privacy & Security** and click **Open Anyway** for Gomoku, or right-click the app and choose **Open**.
+1. Open the **App Store** on your Mac
+2. Search for "Minesweeper" or use the direct link above
+3. Click **Get** or **Buy** to purchase
+4. The app will automatically download and install
+5. Launch Minesweeper from your Applications folder or Launchpad
 
 ## First Launch
 
-When you launch Gomoku for the first time, you may be prompted to grant the following permissions:
-
-- **Local Network**: Required for LAN play so other devices on your Wi‑Fi can discover and join games
-- **Files and Folders**: To save and open game records (SGF) and settings
-- **Accessibility / Screen Recording**: Optional; only needed if you enable auxiliary features that capture the screen or use overlay helpers
-
-Grant permissions when prompted. You can modify these permissions at any time in **System Settings → Privacy & Security**.
+When you launch Minesweeper for the first time, no special permissions are required. The game is fully offline — no network access, no data collection, no ads. Just start playing.
 
 ## Updates
 
-- **Mac App Store version**: Updates are handled automatically by the App Store
-- **GitHub Releases version**: Download the newer release and replace the app in `Applications`
+Updates are handled automatically by the App Store. To check for updates manually, open the App Store and go to your **Account → Updates** section.
 
 ## Uninstall
 
-To uninstall Gomoku:
+### iPhone / iPad
 
-1. Quit Gomoku
-2. Drag `Gomoku.app` from `Applications` to the Trash
-3. (Optional) Remove app data and logs:
+1. Press and hold the Minesweeper app icon
+2. Tap **Remove App** → **Delete App**
+
+### Mac
+
+1. Quit Minesweeper
+2. Drag `Minesweeper.app` from `Applications` to the Trash
+3. (Optional) Remove app data:
 
 ```bash
-rm -rf ~/Library/Containers/com.w3cub.gomoku
-rm -rf ~/Library/Logs/gomoku
+rm -rf ~/Library/Containers/com.w3cub.minesweeper
 ```
-
 
 ## System Requirements
 
-- **macOS**: Monterey (12) or later recommended
+- **iPhone/iPad**: iOS/iPadOS 15.0 or later
+- **Mac**: macOS 15.0 (Sequoia) or later
 - **CPU**: Apple Silicon (M-series) or Intel (64-bit)
-- **Memory**: 4GB minimum, 8GB recommended
-- **Storage**: ~200 MB (varies by build)
+- **Memory**: 2GB minimum
+- **Storage**: ~50 MB
+- **Network**: Not required
 
 ## Troubleshooting
 
 If you encounter issues during installation:
 
-- **macOS blocks the app**: Open **System Settings → Privacy & Security** and click **Open Anyway** for Gomoku
-- **LAN issues**: Ensure all devices are on the same Wi‑Fi network and that **Local Network** permission was granted
-- **Notarization warning**: Download a signed/notarized build from the Mac App Store or GitHub Releases
+- **macOS blocks the app**: Open **System Settings → Privacy & Security** and click **Open Anyway** for Minesweeper
+- **App not appearing**: Restart the App Store app or your device and try again
 
-For more help, visit the [Troubleshooting guide](./troubleshooting.md) or open an issue on the project repository.
+For more help, visit the [Troubleshooting guide](./troubleshooting) or open an issue on the project repository.

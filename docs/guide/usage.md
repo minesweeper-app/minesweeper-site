@@ -1,125 +1,130 @@
 # Usage Guide
 
-> NOTE: This documentation site has been adapted for the Gomoku project. Project source path: `/Users/terry/nuecms-workspace/gomoku`.
+## Basic Gameplay
 
-## Basic Navigation
+### Objective
 
-### Opening Images
+Clear the board without triggering any mines. Reveal all safe squares to win.
 
-- **File Menu**: Click File > Open to select individual images
-- **Folder View**: Click File > Open Folder to browse an entire directory
--- **Drag & Drop**: Drag files directly onto the application window
--- **Browser integration**: If a browser extension exists for Gomoku, install it from the browser store to enable web integrations
-## Finder Sync Extension
+### How to Play
 
-### Quick Image Processing from Finder
+- **Reveal**: Tap or click a square to reveal it
+- **Flag**: Long-press (iOS) or right-click (Mac) to flag a suspected mine
+- **Chord**: Double-tap (iOS) or double-click (Mac) on a revealed number to auto-open adjacent squares (when the correct number of flags are placed)
+- **Numbers**: Each number shows how many mines are adjacent to that square
 
-The Finder Sync Extension example below was written for an image tool; for Gomoku adapt it to the project's quick actions. Example placeholder:
+### First-Click Safety
 
-1. Select one or more items in Finder
-2. Click the Gomoku toolbar button
-3. Choose a quick action from the menu
-4. Gomoku (or the associated tool) will open and process the selected items
+Your first reveal will never be a mine. Mines are placed *after* your first click, excluding the clicked tile.
 
-### Supported Formats
+### Difficulty Levels
 
-The extension works with: JPG, PNG, GIF, BMP, WebP, SVG, TIFF, and ICO files.
-### Thumbnail View
+Board sizes are optimized per device for the best playing experience:
 
-The main interface shows thumbnails of your images:
+![Minesweeper difficulty levels on iPhone](/screenshot-iphone-difficulty.png)
 
-- **Click**: Select an image
-- **Double-click**: Open in full view
-- **Right-click**: Access context menu with options
+#### iPhone
 
-### Full View Mode
+| Level | Grid | Mines |
+|-------|------|-------|
+| Beginner | 10 × 14 | 14 |
+| Intermediate | 14 × 22 | 45 |
+| Expert | 16 × 30 | 99 |
 
-When viewing an image in full screen:
+#### iPad
 
-- **Zoom**: Use mouse wheel or zoom controls
-- **Pan**: Click and drag to move around zoomed images
-- **Navigation**: Use arrow keys or on-screen buttons to go to next/previous image
+| Level | Grid | Mines |
+|-------|------|-------|
+| Beginner | 16 × 16 | 18 |
+| Intermediate | 18 × 16 | 55 |
+| Expert | 18 × 24 | 99 |
 
-## Screenshot Feature
+![Minesweeper difficulty levels on iPad](/screenshot-ipad-difficulty.png)
 
-### Taking Screenshots
+#### Mac
 
-1. Click the screenshot button in the toolbar or use keyboard shortcut
-2. Select the area you want to capture
-3. The screenshot will open in Gomoku for editing
+| Level | Grid | Mines |
+|-------|------|-------|
+| Beginner | 9 × 9 | 10 |
+| Intermediate | 16 × 16 | 40 |
+| Expert | 30 × 16 | 99 |
 
-### Screen Recording Permission
+![Minesweeper on Mac](/screenshot-mac-settings.png)
 
-For screenshot or recording functionality on macOS, the related application needs Screen Recording permission:
+## Game Controls
 
-1. Go to System Settings > Privacy & Security > Screen Recording
-2. Check the box next to the application
-3. Restart the application if necessary
+### iPhone / iPad
 
-## AI Image Editor
+- **Tap**: Reveal a square
+- **Long press** (0.4s): Toggle flag on/off
+- **Double-tap**: Chord (auto-reveal adjacent squares)
 
-### AI Editor Overview
+### Mac
 
-Gomoku may provide analysis or AI-assisted features. Replace this section with project-specific details such as move suggestions, board analysis, or AI opponents.
+- **Left-click**: Reveal a square
+- **Right-click**: Toggle flag on/off
+- **Double-click**: Chord
+- **Scroll**: Zoom in/out
 
-### Inpainting Tool
-
-(Placeholder) Replace tools section with Gomoku-specific utilities.
-
-## Transparent Overlay Mode
-
-Perfect for designers and artists (placeholder):
-
-1. Open a board or resource in Gomoku
-2. Enable overlay or reference mode if available
-3. Adjust settings as needed
-4. Use for tracing, reference work, or comparison
-
-## Keyboard Shortcuts
+### Keyboard Shortcuts (Mac only)
 
 | Shortcut | Action |
 |----------|--------|
-| `Cmd+O` | Open file |
-| `Cmd+Shift+O` | Open folder |
-| `Space` | Next image |
-| `Shift+Space` | Previous image |
-| `Cmd+F` | Toggle fullscreen |
-| `Cmd+W` | Close window |
-| `Cmd+Q` | Quit application |
-| `Delete` | Delete current image |
-| `Cmd+S` | Take screenshot |
-| `Cmd+E` | Open AI editor |
-| `Cmd+T` | Toggle overlay mode |
+| `⌘N` | New game |
+| `⌘1` | Beginner |
+| `⌘2` | Intermediate |
+| `⌘3` | Expert |
+| `⌘⇧R` | Reveal mines (practice mode) |
 
-## Chrome Extension Integration
+## Timer & Scoreboard
 
-### Installation
+### Timer
 
-1. If a browser extension exists for Gomoku, document installation here and remove this placeholder.
+A millisecond-precision timer starts on your first click and stops when the board is cleared or a mine is triggered. The time is displayed in the status bar.
 
-### Usage
+### End-of-Game Scoreboard
 
-1. Visit any website where the extension applies
-2. Click the extension icon
-3. Use the provided features to interact with web content
+When a game ends (win or lose), a scoreboard appears showing:
+
+- **Time**: How long the game took
+- **3BV**: Bechtel's Board Benchmark Value — a measure of board difficulty
+- **Clicks**: Breakdown of left clicks, right clicks, and double clicks
+- **Effective clicks**: Efficiency metric
+
+On iPhone/iPad, the scoreboard appears as a bottom sheet. On Mac, it appears below the board.
+
+## Sound Effects
+
+Minesweeper includes subtle sound effects for key game events:
+
+- **Click**: Tile reveal
+- **Flag**: Flag placed
+- **Unflag**: Flag removed
+- **Boom**: Mine triggered
+- **Win**: Board cleared
+
+Toggle sound on or off in **Settings → Sound**.
 
 ## Settings
 
-Access settings through Gomoku > Preferences (or the equivalent application settings):
+Access settings through the gear icon:
 
-- **General**: Default folder, language, theme
-- **Interface**: Display and interaction settings
-- **Tools**: Analysis, AI or game tools preferences
-- **Integrations**: Browser or system integrations
-- **Privacy**: Data collection preferences
+![Minesweeper settings on iPhone](/screenshot-iphone-settings.png)
 
-## Supported Formats
+![Minesweeper settings on iPad](/screenshot-ipad-settings.png)
 
-Supported formats / platforms depend on the Gomoku project. Replace this list with game clients, export formats (SGF), or platform requirements.
+- **Language**: Switch between 25 supported languages at runtime — no restart needed
+- **Game Resolution** (Mac only): Adjust tile size with a slider
+- **Disable Flagging**: No-flag mode — long-press/right-click opens tiles instead of flagging
+- **Sound**: Toggle sound effects on/off
+
+Settings are stored locally on your device using UserDefaults.
 
 ## Tips and Tricks
 
--- Use search or filters to find games, boards, or saved records
--- Create collections or rooms to organize matches
--- Use analysis tools to mark notable positions
--- Export or share game records (SGF, JSON) as needed
+- **First click is always safe** — your first reveal will never be a mine
+- **Start from corners** — corners have fewer adjacent squares, making deductions easier
+- **Use flags wisely** — flagging helps you track suspected mines and enables chording
+- **Look for patterns** — "1-1" and "1-2" patterns reveal mine locations predictably
+- **Don't guess until you must** — work through the board systematically before relying on chance
+- **Use chording** — once you've flagged the correct number of mines around a number, double-click/tap to auto-reveal the rest

@@ -1,53 +1,55 @@
 # FAQ
 
-Q: What is Gomoku?
+Q: What is Minesweeper?
 
-A: Gomoku is a macOS-first board game app for five-in-a-row play. It supports human vs human, human vs AI, LAN play, and local saving of game records (`.sgf`).
+A: Minesweeper is the classic mine-clearing puzzle game, reimagined for modern devices. Tap to reveal tiles, long-press to flag mines, and use logic to clear the board safely. It's a universal app supporting iPhone, iPad, and Mac.
 
-Q: Which macOS versions are supported?
+Q: Which devices are supported?
 
-A: Gomoku runs on modern macOS releases; Monterey (12) and later are recommended.
+A: Minesweeper is a universal app optimized for iPhone, iPad, and Mac with native controls and crisp Retina display graphics. It requires iOS/iPadOS 15.0 or later and macOS 15.0 (Sequoia) or later. One purchase works on all supported devices.
 
-Q: How do I download and install Gomoku?
+Q: How do I download and install Minesweeper?
 
-A: Download the signed release from the project Releases page or install from the Mac App Store (if available). See the repository README for developer builds.
+A: Download Minesweeper from the App Store: https://apps.apple.com/app/id6793471840 — the universal app works on iPhone, iPad, and Mac.
 
-Q: How do I play over LAN?
+Q: Does Minesweeper need an internet connection?
 
-A: Open the "Online / LAN" page in the app, create a room or join a visible room. Ensure Local Network permission is granted and all devices are on the same Wi‑Fi network.
+A: No. Minesweeper has full offline support — no internet needed, no data usage. The only network access is an optional "More Apps" section in Settings that fetches a list of sibling apps; this can be ignored and does not affect gameplay.
 
-Q: How do I save or export games?
+Q: Are there ads or in-app purchases?
 
-A: Use the in-app Save or Export to create `.sgf` files. Choose the folder when exporting.
+A: No. Minesweeper is completely ad-free with no pop-ups, no in-app purchases, and no interruptions. Just pure, focused gameplay.
 
-Q: How do I set Gomoku as the default app for `.sgf` files?
+Q: What difficulty levels are available?
 
-A: See the "Set Gomoku as the default SGF viewer" guide for Finder instructions (Get Info → Open with → Change All).
+A: Three difficulty levels, with board sizes optimized per device:
 
-Q: Does Gomoku upload my data?
+- **Beginner** — iPhone: 10×14 (14 mines), iPad: 16×16 (18 mines), Mac: 9×9 (10 mines)
+- **Intermediate** — iPhone: 14×22 (45 mines), iPad: 18×16 (55 mines), Mac: 16×16 (40 mines)
+- **Expert** — iPhone: 16×30 (99 mines), iPad: 18×24 (99 mines), Mac: 30×16 (99 mines)
 
-A: Gomoku is offline-first and does not upload personal data by default. LAN play transmits game data only to peers on your local network. See the Privacy Policy for details.
+Q: Is my game data uploaded anywhere?
+
+A: No. Minesweeper is 100% offline — your settings and game state are stored locally on your device. Nothing is uploaded or transmitted, except the optional "More Apps" feature which only fetches a list of sibling apps.
+
+Q: Does Minesweeper save best times or scores?
+
+A: Minesweeper shows a detailed scoreboard at the end of each game (time, 3BV difficulty metric, click breakdown), but does not persist best times across sessions. Each game is a fresh challenge.
 
 Q: How do I update the app?
 
-A: Download the latest release or update through the Mac App Store (if you installed via the App Store).
+A: App Store users receive updates automatically. To check manually, open the App Store and go to your Account → Updates section.
 
 Q: How do I report bugs or request features?
 
-A: Open an issue in the project repository and include your macOS version, Gomoku version, reproduction steps, and logs if available.
+A: Open an issue in the project repository and include your device type, iOS/macOS version, Minesweeper version, reproduction steps, and screenshots if available.
 
-Q: Where are logs and saved games stored?
+Q: Can I customize the game?
 
-A: For sandboxed (App Store) builds:
+A: Yes. In Settings you can switch between 25 languages at runtime, adjust game resolution on Mac, toggle flagging mode (no-flag mode), and turn sound effects on or off.
 
-```
-~/Library/Containers/com.w3cub.gomoku/Data/Library/Application Support/com.w3cub.gomoku/
-```
+Q: What are the keyboard shortcuts on Mac?
 
-Development builds may log to the console or `src-tauri` directory.
-
-Q: Can I play against an AI?
-
-A: Yes. Gomoku includes an AI opponent with multiple difficulty levels available in the game setup.
+A: `⌘N` for a new game, `⌘1`/`⌘2`/`⌘3` for Beginner/Intermediate/Expert, and `⌘⇧R` to reveal all mines (practice mode).
 
 If you need more answers, please open an issue in the repository or consult the full documentation.
