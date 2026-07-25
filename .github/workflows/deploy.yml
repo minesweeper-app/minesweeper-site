@@ -32,7 +32,7 @@ jobs:
       - name: Build
         run: pnpm docs:build
       - name: Add CNAME
-        run: echo "gomoku.w3cub.com" > docs/.vitepress/dist/CNAME
+        run: echo "minesweeper.w3cub.com" > docs/.vitepress/dist/CNAME
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
