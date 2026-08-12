@@ -91,8 +91,7 @@ export default defineConfig({
           items: [
             { text: 'Documentation', link: '/guide/introduction' },
             { text: 'FAQ', link: '/guide/faq' },
-            { text: 'Troubleshooting', link: '/guide/troubleshooting' },
-            { text: 'Contact', link: 'mailto:minesweeper@w3cub.com' }
+            { text: 'Troubleshooting', link: '/guide/troubleshooting' }
           ]
         },
         {
